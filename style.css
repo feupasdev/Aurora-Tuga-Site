@@ -55,3 +55,14 @@ button:hover {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.hint {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #00aa00;
+}
+
+.key-highlight {
+    color: #00ff00;
+    font-weight: bold;
+    text-shadow: 0 0 5px #00ff00;
+}
