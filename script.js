@@ -52,7 +52,7 @@ function enterSite() {
         <p>Servidor Internacional de Portugal</p>
         <p>IP: [REDACTED]</p>
         <p>Status: ONLINE</p>
-        <p>Baseado em SCP: Secret Laboratory</p>
+        <p>Servidor de SCP: Secret Laboratory</p>
     `;
 }
 
