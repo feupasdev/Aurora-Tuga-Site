@@ -27,3 +27,31 @@ button {
 button:hover {
     background: #002200;
 }
+input {
+    background: black;
+    border: 1px solid #00ff00;
+    color: #00ff00;
+    margin: 10px;
+    padding: 8px;
+    width: 80%;
+}
+
+button {
+    background: black;
+    border: 1px solid #00ff00;
+    color: #00ff00;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #002200;
+}
+
+.discord-title {
+    font-size: 24px;
+    font-weight: bold;
+    background: linear-gradient(to right, #001f4d, #4da6ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
