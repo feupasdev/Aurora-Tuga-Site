@@ -9,9 +9,15 @@
 <div id="terminal">
     <pre id="boot-text"></pre>
 
-    <div id="enter-section" style="display:none;">
-        <h2>Bem-vindo à instalação, Recruta.</h2>
-        <button onclick="enterSite()">ENTER</button>
+    <div id="access-section" style="display:none;">
+        <h2>IP: [REDACTED]</h2>
+        <p>Servidor de SCP Secret Laboratory</p>
+        <p>ACCESS KEY REQUIRED</p>
+
+        <input type="text" id="accessKey" placeholder="Digite a chave de acesso">
+        <button onclick="checkKey()">CONFIRMAR</button>
+
+        <p id="error-msg" style="color:red; display:none;">Chave inválida.</p>
     </div>
 </div>
 
